@@ -23,7 +23,7 @@ int soma_impares ( int x, int y) {
 int main (int argc, char *argv[]) {
     int x, y;
 
-    printf("Insta os valores de x e y: \n");
+    printf("Insira os valores de x e y: \n");
     scanf("%d %d", &x, &y);
 
     printf("A soma entre x e y eh: %d", soma_impares(x, y));
